@@ -12,8 +12,31 @@ list_impares = []
 
 def separar(lista):
     for recorrer in list:
-        if list %2 == 0:
-            list_pares.append(list)
+        if recorrer%2 == 0:
+            list_pares.append(recorrer)
         else:
-            list_impares.append(list)
-separar(list)
+            list_impares.append(recorrer)
+    return list_pares, list_impares
+
+list_pares, list_impares = separar(list)
+print(list_pares)
+print(list_impares)
+
+""" Solucion:
+nums = [-12, 84, 13, 20, -33, 101, 9] 
+
+def separar(lista):
+    list.sort()
+    pares = []
+    impares = []
+    for n in lista:
+        if n%2 == 0:
+            pares.append(n)
+        else:
+            impares.append(n)
+    return pares, impares
+
+pares, impares = separar(numeros)
+print(pares)
+print(impares)
+"""
