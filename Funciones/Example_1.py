@@ -1,9 +1,13 @@
-""" def students():
-    print("Hi students")
-students() """
+# Funcion que muestra la tabla del 7
+num = int(input("Numero a multiplicar >> "))
 
-#Funcion que muestra la tabla del 7
-def tabla_del_siete():
+def tabla_multiplicar():
     for x in range(1, 11):
-        print(f"7 x {x} = {7 * x}")
-tabla_del_siete()
+        print(f"{num} x {x} = {num * x}")
+
+tabla_multiplicar() 
+
+def students():
+    print(f"Hi students {num}")
+
+students()
