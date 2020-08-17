@@ -13,5 +13,5 @@ def relacion(a, b):
         return -1
     elif a == b:
         return 0
-resultado = relacion(num_1, num_2)
-print(f"Devuelve {resultado}")
+resultado = relacion(num_1, num_2) 
+print(f"Devuelve {resultado}") 
