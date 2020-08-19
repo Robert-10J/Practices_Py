@@ -16,6 +16,11 @@ def agregar_una_vez(lista, el):
         element = input("Elemento >> ")
         lis.append(element)
     
+    for x in lis:
+        try:
+            if x == x:
+                raise ValueError ("Error")
+        
     return lis
 
 result = agregar_una_vez(lis, n_elementos)
