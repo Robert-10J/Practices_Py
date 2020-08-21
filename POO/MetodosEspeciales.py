@@ -21,7 +21,11 @@ class listado:
         self.autos = autos
 
     def fabricar(self, x):
+<<<<<<< HEAD
         self.autos.append(y)        
+=======
+        self.autos.append(x)
+>>>>>>> respaldo
 
     def visualizar(self):
         for x in self.autos:
