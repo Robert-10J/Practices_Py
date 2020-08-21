@@ -21,7 +21,7 @@ class listado:
         self.autos = autos
 
     def fabricar(self, x):
-        self.autos.append(y)
+        self.autos.append(y)        
 
     def visualizar(self):
         for x in self.autos:
